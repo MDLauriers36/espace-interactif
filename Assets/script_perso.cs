@@ -4,7 +4,7 @@ using UnityEngine;
 public class script_perso : MonoBehaviour
 {
     Rigidbody2D body;
-    private SpriteRenderer sp;
+    public SpriteRenderer sp;
 
     float horizontal;
     float vertical;
